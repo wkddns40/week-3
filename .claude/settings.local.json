@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(npm run build)",
+      "Bash(npx wrangler pages dev:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh api:*)",
+      "Bash(gh:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(winget install:*)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth login --web -h github.com)",
+      "Bash(npm run dev)",
+      "Bash(timeout:*)",
+      "Bash(git remote add:*)"
+    ]
+  }
+}
